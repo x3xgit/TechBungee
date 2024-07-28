@@ -1,12 +1,16 @@
 package techcommunity.net.techbungee;
 
-import com.google.common.io.ByteArrayDataOutput;
-import com.google.common.io.ByteStreams;
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.java.JavaPlugin;
+//import com.google.common.io.ByteArrayDataOutput;
+//import com.google.common.io.ByteStreams;
+//import org.bukkit.entity.Player;
+//import org.bukkit.plugin.java.JavaPlugin;
 
 public final class TechBungee {
-    private JavaPlugin plugin;
+    public static int getInt() {
+        return 1488;
+    }
+
+    /*private JavaPlugin plugin;
 
     public TechBungee(JavaPlugin plugin) {
         this.plugin = plugin;
@@ -22,5 +26,5 @@ public final class TechBungee {
             out.writeUTF(serverName);
             player.sendPluginMessage(plugin, "BungeeCord", out.toByteArray());
         }
-    }
+    }*/
 }
