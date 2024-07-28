@@ -1,0 +1,5 @@
+name: TechBungee
+version: '${project.version}'
+main: techcommunity.net.techbungee.TechBungee
+api-version: '1.20'
+load: STARTUP
